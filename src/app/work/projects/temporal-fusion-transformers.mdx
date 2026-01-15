@@ -1,0 +1,54 @@
+---
+title: "Temporal Fusion Transformers Regime Detection"
+publishedAt: "2025-05-01"
+summary: "Market regime detection using Temporal Fusion Transformers vs LSTM."
+images:
+  - "/images/gallery/tft_pic.png"
+team:
+  - name: "Christian J. Cardenas"
+    role: "Quantitative Analyst"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/"
+---
+
+[Click here to View Project](https://www.algogators.com/post/using-temporal-fusion-transformers-for-market-regime-detection)
+
+## Overview
+
+This project investigates the application of the Temporal Fusion Transformer (TFT)—a deep learning architecture designed for multi-horizon time series forecasting—to the task of market regime detection. The goal was to determine if the TFT’s attention mechanisms could outperform traditional Long Short-Term Memory (LSTM) models and unsupervised methods like Hidden Markov Models (HMM) in identifying structural shifts in financial markets.
+
+
+## Methodology
+
+
+1. Data Integration: The study utilized a diverse dataset (2000–2021) combining high-frequency daily price data for the SPY ETF with lower-frequency macroeconomic indicators, such as the VIX, Federal Funds Rate, and Economic Policy Uncertainty indices.
+
+
+2. Feature Engineering: Key features included realized volatility (RV), RV lags, logarithmic returns, and squared log returns to provide the models with deep statistical context.
+
+
+
+3. Regime Labeling: Because market regimes are not pre-labeled, an unsupervised K-means clustering technique was used to identify four distinct market regimes based on realized volatility.
+
+
+
+4. Model Training: A TFT model (implemented via PyTorch Forecasting) was trained against a benchmark LSTM, both restricted to ~70,000 parameters to ensure a fair comparison of architectural performance.
+
+
+## Key Findings
+- Predictive Accuracy: The LSTM achieved a higher raw accuracy (86%) compared to the TFT (17%).
+
+- The "Safe Prediction" Trap: Analysis revealed that the LSTM’s high accuracy was likely due to "safe" predictions—consistently outputting the most prevalent regime.
+
+- Structural Insight: While the TFT had lower accuracy, it achieved a superior F1 score (0.92 vs. 0.14 for the LSTM), indicating a much better balance between precision and recall. This suggests the TFT is more capable of detecting actual shifts in data structure rather than just following the most common state.
+
+
+## Conclusion 
+While the LSTM appeared superior on paper, the Temporal Fusion Transformer demonstrated a unique potential for identifying complex structural changes in market behavior. Future research will explore larger datasets and refined transformer architectures like the "Informer" to further enhance regime classification.
+
+## Technologies
+
+- PyTorch
+- Pandas
+- NumPy
+- Machine Learning (TFT, LSTM)
