@@ -170,6 +170,37 @@ function createHR() {
   );
 }
 
+function YouTube({ videoId }: { videoId: string }) {
+  return (
+    <div
+      style={{
+        position: "relative",
+        paddingBottom: "56.25%",
+        height: 0,
+        overflow: "hidden",
+        borderRadius: "var(--radius-m)",
+        marginBottom: "var(--static-space-24)",
+        marginTop: "var(--static-space-24)",
+      }}
+    >
+      <iframe
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          border: 0,
+        }}
+        src={`https://www.youtube.com/embed/${videoId}`}
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </div>
+  );
+}
+
 const components = {
   p: createParagraph as any,
   h1: createHeading("h1") as any,
@@ -202,6 +233,7 @@ const components = {
   Icon,
   Media,
   SmartLink,
+  YouTube,
 };
 
 type CustomMDXProps = MDXRemoteProps & {

@@ -3,7 +3,7 @@ title: "Automating Professor Workflows"
 publishedAt: "2025-12-01"
 summary: "Automating professor workflows using Python."
 images:
-  - "/images/gallery/horizontal-1.jpg"
+  - "/images/gallery/Automating-Workflows.png"
 team:
   - name: "Christian J. Cardenas"
     role: "Software Engineer"
@@ -11,18 +11,36 @@ team:
     linkedIn: "https://www.linkedin.com/in/christian-cardenas-5a07302aa/"
 ---
 
-[Click to View Project](https://github.com/idkh0wtocode/Assignment-Extensions-LTI-App)
+[Click here to View Project](https://github.com/idkh0wtocode/Assignment-Extensions-LTI-App)
 
 ## Overview
+A sophisticated full-stack web application integrated with **Canvas LMS** via the **LTI 1.3 protocol**. This system streamlines the assignment extension workflow, replacing messy email chains with a centralized, secure dashboard.
 
-Developed student marketplace with user-friendly UI using Django, React and PostgreSQL, with JWT authentication.
-
-Utilized Agile project development to ensure meet project deadlines and implement features include user login, buying, selling, and reporting; utilized Postman for API testing and debugging to ensure reliability and performance.
 
 ## Technologies
 
-- Django
-- React
-- PostgreSQL
-- JWT Authentication
-- Postman
+**Technology Stack:** Python (Flask), SQLAlchemy ORM, LTI 1.3 Integration, Canvas API, SQLite Database, WTForms, HTML/CSS (Tailwind), Jinja2 Templating
+
+**Key Features:**
+- Secure LTI 1.3 authentication and Canvas integration
+- Role-based access control (student vs. instructor views)
+- Real-time assignment data synchronization from Canvas API
+- Automated due date override functionality
+- Request lifecycle management (pending → approved/denied)
+- Persistent storage with database migrations
+
+---
+
+
+## Technical Implementation
+- **LTI 1.3 & OAuth 2.0:** Built a secure handshake using JSON Web Keys (JWK) for seamless, authenticated launches directly from Canvas.
+- **Real-time Synchronization:** Integrated the **Canvas REST API** to dynamically fetch assignment data and student context.
+- **Role-Based Access (RBAC):** Developed custom routing to serve unique interfaces for students (request submission) and instructors (approval dashboard).
+- **Persistent Storage:** Designed a normalized SQLAlchemy schema to track the full lifecycle of a request from "Pending" to "Approved/Denied."
+
+
+
+## Impact
+- **70% Efficiency Gain:** Centralized management reduces instructor administrative time significantly.
+- **Standardization:** Creates a consistent, audit-ready process for extension handling across multiple courses.
+- **Security:** Implemented CSRF protection, secure session management, and course-level data isolation.
