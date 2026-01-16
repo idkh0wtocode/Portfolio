@@ -1,0 +1,99 @@
+1:"$Sreact.fragment"
+2:I[273323,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Column"]
+3:I[479520,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],""]
+4:I[624379,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"SmartLink"]
+5:I[778454,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Row"]
+6:I[571045,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"AvatarGroup"]
+7:I[398382,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Media"]
+8:I[811052,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"HeadingLink"]
+9:I[436122,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"List"]
+a:I[626935,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ListItem"]
+b:I[311451,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"Line"]
+10:I[474855,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ProjectCard"]
+14:I[988654,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js"],"ScrollToHash"]
+15:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+0:{"buildId":"O4eum9yrkJC2d-DB5D7Cx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","children":[["$","$L3",null,{"id":"schema-blogPosting-/work/fuse-filesystem","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/work/fuse-filesystem\",\"sameAs\":[],\"headline\":\"FUSE Filesystem\",\"description\":\"Custom user-space filesystem implementation using FUSE in C++.\",\"image\":\"https://demo.magic-portfolio.com/api/og/generate?title=FUSE%20Filesystem\",\"datePublished\":\"2025-11-01\",\"dateModified\":\"2025-11-01\",\"author\":{\"@type\":\"Person\",\"name\":\"Christian J. Cardenas\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/avatar.jpg\"}}}"}}],["$","$L2",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L4",null,{"href":"/work","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Projects"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"November 1, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"FUSE Filesystem"}]]}],["$","$L5",null,{"marginBottom":"32","horizontal":"center","children":["$","$L5",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"reverse":true,"avatars":[{"src":"/images/avatar.jpg"}],"size":"s"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":[["$","span","0",{"children":[false,["$","$L4",null,{"href":"https://www.linkedin.com/in/christian-cardenas-5a07302aa/","children":"Christian J. Cardenas"}]]}]]}]]}]}],["$","$L7",null,{"priority":true,"aspectRatio":"16 / 9","radius":"m","alt":"image","src":"/images/gallery/Fuse-Filesystem.png"}],["$","$L2",null,{"style":{"margin":"auto"},"as":"article","maxWidth":"xs","children":[["$","div",null,{"style":{"position":"relative","paddingBottom":"56.25%","height":0,"overflow":"hidden","borderRadius":"var(--radius-m)","marginBottom":"var(--static-space-24)","marginTop":"var(--static-space-24)"},"children":["$","iframe",null,{"style":{"position":"absolute","top":0,"left":0,"width":"100%","height":"100%","border":0},"src":"https://www.youtube.com/embed/teabC_5tOv0Z","title":"YouTube video player","allow":"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture","allowFullScreen":true}]}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"overview","children":"Overview"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Implemented a custom user-space filesystem using FUSE in C++, supporting core file and directory operations (open, read, write, mkdir, unlink)."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Modeled the filesystem hierarchy using n-ary trees and map-based data structures to efficiently manage directories, inodes, and file metadata."}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":"Ensured POSIX-compliant behavior through correct permission handling, offset-based I/O, and robust error handling during filesystem operations."}],"\n",["$","$L8",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"technologies","children":"Technologies"}],"\n",["$","$L9",null,{"children":["\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"C++"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"FUSE"}],"\n",["$","$La",null,{"marginTop":"4","marginBottom":"8","style":{"lineHeight":"175%"},"children":"Data Structures (Trees, Maps)"}],"\n"]}]]}],["$","$L2",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$Lb",null,{"maxWidth":"40"}],"$Lc","$Ld"]}],"$Le"]}],null,"$Lf"]}],"loading":null,"isPartial":false}
+c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong mb-24","style":{"textWrap":"balance"},"children":"Related projects"}]
+11:T97d,
+[Click here to View Project](https://github.com/idkh0wtocode/Student-Marketplace)
+
+## Overview
+
+The Mega Magic Marketplace is a dedicated digital platform designed to facilitate a safe and centralized exchange for university students. Developed by "The Squirtle Squad," the application addresses the specific constraints of campus life by providing a localized environment for buying, selling, or exchanging textbooks, furniture, clothing, and other student resources.
+Developed student marketplace with user-friendly UI using Django, React and PostgreSQL, with JWT authentication.
+
+
+## Technical Methodology
+- **Three-Tier Architecture:** Built using a modern standard architecture consisting of a React frontend, a Django backend, and a PostgreSQL database.
+- **Frontend Development:** Created an interactive interface using React (JavaScript) that handles item browsing, category filtering, and real-time search queries via REST API calls.
+- **Robust Backend:** Implemented Django + Django REST Framework to manage API endpoints for user authentication, product management, and search logic.
+- **Data Integrity & Testing:** Utilized Django ORM for schema maintenance and implemented seven distinct unit tests covering critical workflows like database insertion, user registration, and messaging.
+- **Agile Management:** Managed development via the Scrum framework, utilizing Git feature branches and Kanban tracking to maintain a high sprint velocity.
+
+## Technologies
+
+- Django
+- React
+- PostgreSQL
+- JWT Authentication
+- Postman
+
+## Key Features
+- **Integrated Messaging:** Secure communication channel for users to coordinate exchanges directly within the platform.
+- **Comprehensive Search:** Keyword-based searching and category filtering to enhance item discoverability.
+- **Administrative Control:** Includes a Django Admin Panel for data entry, user management, and platform oversight.
+
+## Impact & Future Scalability
+- **Community Safety:** The platform mitigates risks such as transaction scams through an integrated reporting system and planned verified university email authentication.
+- **Scalable Design:** The combination of PostgreSQL and Django's modular architecture ensures the system can scale to handle thousands of concurrent student users.
+- **Sustainability:** Encourages a circular economy within the campus community, reducing waste by facilitating the exchange of pre-owned academic materials.
+
+---d:["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$L10","student-marketplace",{"priority":true,"href":"/work/student-marketplace","images":["/images/gallery/supermarketplace.png"],"title":"Student Marketplace","description":"Student marketplace with user-friendly UI using Django, React and PostgreSQL.","content":"$11","avatars":[{"src":"/images/avatar.jpg"}],"link":""}],["$","$L10","investment-performance-tracker",{"priority":true,"href":"/work/investment-performance-tracker","images":["/images/gallery/Investment-Performance-Tracker.png"],"title":"Investment Performance Tracker","description":"Scalable data pipelines and analytics dashboard for investment performance tracking.","content":"\n[Click here to View Project](https://github.com/idkh0wtocode/Stock-Swiper-App)\n\n## Overview\n\nDeployed scalable data pipelines use Node.js, MongoDB, and RESTful APIs, streamlining data transfer processes and reducing latency; utilized Postman for API testing and debugging to ensure reliability and performance.\n\nBuilt analytics dashboard for investment platform using Next.js, creating visualizations for portfolio metrics and performance tracking that enabled data-driven investment decisions.\n\n## Technologies\n\n- Node.js\n- MongoDB\n- RESTful APIs\n- Next.js\n- Postman\n","avatars":[{"src":"/images/avatar.jpg"}],"link":""}],"$L12","$L13"]}]
+e:["$","$L14",null,{}]
+f:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+18:T990,
+[Click here to View Project](https://www.algogators.com/post/using-temporal-fusion-transformers-for-market-regime-detection)
+
+## Overview
+
+This project investigates the application of the Temporal Fusion Transformer (TFT)—a deep learning architecture designed for multi-horizon time series forecasting—to the task of market regime detection. The goal was to determine if the TFT’s attention mechanisms could outperform traditional Long Short-Term Memory (LSTM) models and unsupervised methods like Hidden Markov Models (HMM) in identifying structural shifts in financial markets.
+
+
+## Methodology
+
+
+1. Data Integration: The study utilized a diverse dataset (2000–2021) combining high-frequency daily price data for the SPY ETF with lower-frequency macroeconomic indicators, such as the VIX, Federal Funds Rate, and Economic Policy Uncertainty indices.
+
+
+2. Feature Engineering: Key features included realized volatility (RV), RV lags, logarithmic returns, and squared log returns to provide the models with deep statistical context.
+
+
+
+3. Regime Labeling: Because market regimes are not pre-labeled, an unsupervised K-means clustering technique was used to identify four distinct market regimes based on realized volatility.
+
+
+
+4. Model Training: A TFT model (implemented via PyTorch Forecasting) was trained against a benchmark LSTM, both restricted to ~70,000 parameters to ensure a fair comparison of architectural performance.
+
+
+## Key Findings
+- Predictive Accuracy: The LSTM achieved a higher raw accuracy (86%) compared to the TFT (17%).
+
+- The "Safe Prediction" Trap: Analysis revealed that the LSTM’s high accuracy was likely due to "safe" predictions—consistently outputting the most prevalent regime.
+
+- Structural Insight: While the TFT had lower accuracy, it achieved a superior F1 score (0.92 vs. 0.14 for the LSTM), indicating a much better balance between precision and recall. This suggests the TFT is more capable of detecting actual shifts in data structure rather than just following the most common state.
+
+
+## Conclusion 
+While the LSTM appeared superior on paper, the Temporal Fusion Transformer demonstrated a unique potential for identifying complex structural changes in market behavior. Future research will explore larger datasets and refined transformer architectures like the "Informer" to further enhance regime classification.
+
+## Technologies
+
+- PyTorch
+- Pandas
+- NumPy
+- Machine Learning (TFT, LSTM)
+12:["$","$L10","temporal-fusion-transformers",{"priority":false,"href":"/work/temporal-fusion-transformers","images":["/images/gallery/tft_pic.png"],"title":"Temporal Fusion Transformers Regime Detection","description":"Market regime detection using Temporal Fusion Transformers vs LSTM.","content":"$18","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]
+13:["$","$L10","amazon-route-optimization",{"priority":false,"href":"/work/amazon-route-optimization","images":["/images/gallery/Fastest-Route-20-min.png"],"title":"Amazon Route Optimization","description":"Statistical analysis of Amazon Delivery Dataset revealing correlational relationships.","content":"[Click here to View Project](https://github.com/idkh0wtocode/DataAnalysis)\n\n## Overview\n\nAnalyzed Amazon Delivery Dataset from Kaggle using Pandas, NumPy, and Matplotlib/Seaborn, revealing correlational relationships through statistical analysis such as linear regression models between different variables.\n\nVisualized data using Folium via heatmaps to analyze most prominent areas of delivery.\n\n## Technologies\n\n- Python\n- Pandas\n- NumPy\n- Matplotlib/Seaborn\n- Folium\n","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]
+17:null

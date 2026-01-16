@@ -1,0 +1,1305 @@
+1:"$Sreact.fragment"
+3:I[339756,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"default"]
+4:I[837457,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"default"]
+5:I[273323,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Column"]
+6:I[479520,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],""]
+7:I[89532,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Grid"]
+8:I[814360,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"default"]
+11:I[168027,[],"default"]
+:HL["/Portfolio/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/Portfolio/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/Portfolio/_next/static/chunks/d588c598996efe03.css","style"]
+:HL["/Portfolio/_next/static/chunks/eef662fdc50843a7.css","style"]
+:HL["/Portfolio/_next/static/chunks/b3a7f4834154c9dc.css","style"]
+:HL["/Portfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Portfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+9:T891,
+## Overview
+
+The Dictator's Handbook is a describes the selectorate theory as created by the author Bruce Bueno de Mesquita along with case studies of governments in where they succeeded and failed. 
+There are 3 groups of people the everyone can be a part of: 
+- essentials
+- influentials
+- interchangables
+
+My purpose for inspiration for reading this book was Trump's America. 
+
+
+## Frontmatter
+
+The frontmatter is used to set the post's metadata: title, description, image, and tags. It's used in the post's page and in meta- and open graph tags.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+      {
+        code:
+`---
+title: "Arriving to a new milestone in my career"
+publishedAt: "2024-04-08"
+image: "/images/gallery/img-02.jpg"
+summary: "Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path."
+tag: "Journal"
+---`,
+        language: "tsx",
+        label: "src/app/blog/posts/post-1.mdx"
+      }
+    ]}
+/>
+
+## MDX syntax
+
+You can use MDX to write the content of your posts. It helps you write rich and dynamic content with minimal code. Some MDX elements will be automatically transformed to Once UI components to integrate better in the design and add additional functionality.
+
+## Custom components
+
+You can use custom components in MDX files, but you need to import them first in the `src/components/mdx.tsx` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="11-12"
+    codes={[
+      {
+        code:
+`const components = {
+    p: createParagraph as any,
+    h1: createHeading(1) as any,
+    h2: createHeading(2) as any,
+    h3: createHeading(3) as any,
+    h4: createHeading(4) as any,
+    h5: createHeading(5) as any,
+    h6: createHeading(6) as any,
+    img: createImage as any,
+    a: CustomLink as any,
+    Table,
+    CodeBlock,
+};`,
+        language: "tsx",
+        label: "src/components/mdx.tsx"
+      }
+    ]}
+/>
+
+As you can see, the `Table` and `CodeBlock` components are already imported and available for use. You can add more by simply importing them to this file and passing them to the `components` object.
+
+## Hot reload
+
+Hot reload of MDX files is currently not supported, but we're working on it.0:{"P":null,"b":"O4eum9yrkJC2d-DB5D7Cx","c":["","blog"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/d588c598996efe03.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Portfolio/_next/static/chunks/1641ded1f24452da.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/Portfolio/_next/static/chunks/da88470138ff993a.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[["$","$L5",null,{"maxWidth":"m","paddingTop":"24","children":[["$","$L6",null,{"id":"schema-blogPosting-/blog","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"sameAs\":[],\"headline\":\"Writing about tech and finance...\",\"description\":\"Read what Christian J. Cardenas has been up to recently\",\"image\":\"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20tech%20and%20finance...\",\"author\":{\"@type\":\"Person\",\"name\":\"Christian J. Cardenas\",\"url\":\"https://demo.magic-portfolio.com/blog\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/avatar.jpg\"}}}"}}],["$","h1",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-24 mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Writing about tech and finance..."}],["$","$L5",null,{"fillWidth":true,"flex":1,"gap":"40","children":[["$","$L7",null,{"columns":"1","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","dictator_handbook",{"post":{"metadata":{"title":"A Dictator's Handbook Review","subtitle":"","publishedAt":"2026-01-13","summary":"A book about how to stay in power.","image":"","images":[],"tag":"Book","team":[],"link":""},"slug":"dictator_handbook","content":"$9"},"thumbnail":true,"direction":"$undefined"}]]}],"$La","$Lb","$Lc","$Ld"]}]]}],["$Le"],"$Lf"]}],{},null,false,false]},null,false,false]},null,false,false],"$L10",false]],"m":"$undefined","G":["$11",[]],"S":true}
+14:I[303847,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Mailchimp"]
+1e:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"OutletBoundary"]
+1f:"$Sreact.suspense"
+21:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"ViewportBoundary"]
+23:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"MetadataBoundary"]
+26:I[530824,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Providers"]
+27:I[621971,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"RevealFx"]
+28:I[394412,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Background"]
+29:I[521247,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"ClientFlex"]
+2a:I[402971,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Header"]
+2b:I[1166,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"RouteGuard"]
+12:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />13:T49d,
+## Enable or disable pages
+
+Magic Portfolio's `RouteGuard` component takes care of conditionally rendering pages based on the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/gallery` page is not accessible and is not displayed in the navigation.
+
+## Add new pages
+
+When creating a new page, it needs to be added to the `routes` object in the `resources/config.js` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="6"
+    codes={[
+  {
+    code:
+`const routes = {
+    '/':        true,
+    '/about':   true,
+    '/work':    true,
+    '/blog':    true,
+    '/gallery': false,
+    '/music': true,
+};`,
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+The code above will ensure that the `/music` page is accessible. Users will be able to navigate to it after adding it to the navigation menu in the `components/Header.tsx` file.a:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$12"},"thumbnail":true,"direction":"column"}],["$","$L8","pages",{"post":{"metadata":{"title":"Enable or disable pages for your portfolio","subtitle":"","publishedAt":"2025-04-22","summary":"Magic Portfolio's RouteGuard component takes care of conditionally rendering pages based on your settings.","image":"/images/gallery/horizontal-2.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"pages","content":"$13"},"thumbnail":true,"direction":"column"}]]}]
+b:["$","$L14",null,{"marginBottom":"l"}]
+c:["$","h2",null,{"className":"font-heading font-strong font-xl neutral-on-background-strong ml-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Earlier posts"}]
+15:T884,
+## Global style
+
+Magic Portfolio's styling is based on Once UI's customization through data-attributes. You can generate a custom color palette for brand, accent and neutral colors on [Once UI](https://once-ui.com/customize) where you'll find instructions on how to apply it.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+  {
+    code:
+`theme:       'dark',         // dark | light
+neutral:     'gray',         // sand | gray | slate
+brand:       'blue',         // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+accent:      'indigo',       // blue | indigo | violet | magenta | pink | red | orange | yellow | moss | green | emerald | aqua | cyan
+solid:       'contrast',     // color | contrast
+solidStyle:  'flat',         // flat | plastic
+border:      'playful',      // rounded | playful | conservative
+surface:     'translucent',  // filled | translucent
+transition:  'all',          // all | micro | macro
+scaling:     '100',          // 90 | 95 | 100 | 105 | 110`, 
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+## Background effect
+
+There's a pre-configured background in `layout.tsx` that you can modify in the config file. Set graphic elements such as gradient, dots, lines, and grid and configure their appearance.
+
+<CodeBlock
+    codeHeight={24}
+    marginBottom="16"
+    codes={[
+  {
+    code:
+`const effects = {
+    mask: {
+      cursor: false,
+      x: 50,
+      y: 0,
+      radius: 100
+    },
+    gradient: {
+      display: true,
+      x: 50,
+      y: -25,
+      width: 100,
+      height: 100,
+      tilt: 0,
+      colorStart: 'accent-background-strong',
+      colorEnd: 'static-transparent',
+      opacity: 50
+    },
+    dots: {
+      display: true,
+      size: 2,
+      color: 'brand-on-background-weak',
+      opacity: 20
+    },
+    lines: {
+      display: false,
+      color: 'neutral-alpha-weak',
+      opacity: 100
+    },
+    grid: {
+      display: false,
+      color: 'neutral-alpha-weak',
+      opacity: 100,
+      width: 'var(--static-space-32)',
+      height: 'var(--static-space-32)'
+    }
+}`, 
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />16:T47c0,
+Magic Portfolio will replace some default HTML elements to Once UI components to integrate better in the design and add additional functionality. Furthermore, many common Once UI components are already imported and available for use.
+
+## Feedback
+
+The feedback component is used to display critical information to visitors.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codeHeight={24}
+    preview={<Feedback icon title="Feedback element" variant="success" description="Longer description of the feedback message." marginBottom="24"/>}
+    codes={[
+      {
+        code:
+`<Feedback
+    icon
+    variant="success"
+    title="Feedback element"
+    description="Longer description of the feedback message."
+/>`,
+        language: "tsx",
+        label: "Feedback"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/feedback" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Table
+
+Tables are used to display data in a structured format.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    preview={
+    <Table 
+      data={{
+        headers: [
+          { content: "Name", key: "name", sortable: true },
+          { content: "Type", key: "type", sortable: true },
+          { content: "Description", key: "description" }
+        ],
+        rows: [
+          ["title", "string", "The title of the document"],
+          ["summary", "string", "A brief summary of the document content"],
+          ["updatedAt", "string", "The date when the document was last updated"],
+          ["navLabel", "string", "The label used in navigation menus"]
+        ]
+      }}
+    />}
+    codes={[
+      {
+        code:
+`<Table 
+    data={{
+      headers: [
+        { content: "Name", key: "name", sortable: true },
+        { content: "Type", key: "type", sortable: true },
+        { content: "Description", key: "description" }
+      ],
+      rows: [
+        ["title", "string", "The title of the document"],
+        ["summary", "string", "A brief summary of the document content"],
+        ["updatedAt", "string", "The date when the document was last updated"],
+        ["navLabel", "string", "The label used in navigation menus"]
+      ]
+    }}
+/>`,
+        language: "tsx",
+        label: "Table"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/table" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Code
+
+Use the CodeBlock component to display code snippets with code highlighting, preview, and copy to clipboard functionality. Use the InlineCode component for inline code snippets.
+
+### CodeBlock
+
+The code block component works based on Once UI's CodeBlock. You can access it with the complete syntax for full customization, or by using the standard markdown syntax (triple backticks) with pre-configured props.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codes={[
+      {
+        code:
+`// Full component syntax
+<CodeBlock
+    codes={[
+      {
+        code: "console.log('Hello, World!');",
+        language: "javascript",
+        label: "Example"
+      }
+    ]}
+/>
+
+// Short syntax example
+\`\`\`tsx
+function greeting(name) {
+    return \`Hello, \${name}!\`;
+}
+
+console.log(greeting('World'));
+\`\`\``,
+        language: "tsx",
+        label: "CodeBlock"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/codeBlock" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+### InlineCode
+
+The `InlineCode` is another Once UI component that you can access either through the complete syntax or the short syntax (backticks). Usually the standard markdown syntax is recommended, since it doesn't have that much configuration options.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codeHeight={24}
+    preview={
+    <InlineCode>
+        const x = 10;
+    </InlineCode>}
+    codes={[
+      {
+        code:
+`// Full component syntax
+<InlineCode>
+    const x = 10;
+</InlineCode>
+
+// Short syntax example
+\`const x = 10;\``,
+        language: "tsx",
+        label: "InlineCode"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/inlineCode" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Accordion
+
+Accordions are used to toggle between hiding and showing content.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    preview={
+      <AccordionGroup 
+        items={[
+          {
+            title: "Section 1",
+            content: <Text variant="body-default-s" onBackground="neutral-weak">This is the content for section 1. You can include any components here.</Text>
+          },
+          {
+            title: "Section 2",
+            content: <Text variant="body-default-s" onBackground="neutral-weak">This is the content for section 2. Accordions are great for FAQs and other expandable content.</Text>
+          },
+          {
+            title: "Section 3",
+            content: <Text variant="body-default-s" onBackground="neutral-weak">This is the content for section 3. They help save space by hiding content until needed.</Text>
+          }
+        ]}
+      />
+    }
+    codes={[
+      {
+        code:
+`<AccordionGroup 
+    items={[
+      {
+        title: "Section 1",
+        content: <Text>This is the content for section 1.</Text>
+      },
+      {
+        title: "Section 2",
+        content: <Text>This is the content for section 2.</Text>
+      },
+      {
+        title: "Section 3",
+        content: <Text>This is the content for section 3.</Text>
+      }
+    ]}
+/>`,
+        language: "tsx",
+        label: "Accordion"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/accordion" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Button
+
+Buttons are used to trigger actions or navigate to other pages.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codeHeight={24}
+    preview={
+    <Row gap="8" marginBottom="16" marginTop="8">
+      <Button variant="primary" label="Primary" />
+      <Button variant="secondary" label="Secondary" />
+      <Button variant="tertiary" label="Tertiary" />
+    </Row>}
+    codes={[
+      {
+        code:
+`<Row gap="8">
+  <Button variant="primary" label="Primary" />
+  <Button variant="secondary" label="Secondary" />
+  <Button variant="tertiary" label="Tertiary" />
+</Row>`,
+        language: "tsx",
+        label: "Button"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/button" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Card
+
+Cards are used to group related content and actions.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    preview={
+    <Row fillWidth horizontal="center">
+      <Card
+        href=" "
+        maxWidth={20}
+        radius="l-4"
+        direction="column"
+        padding="4"
+        gap="8"
+      >
+        <Media src="/images/projects/project-01/cover-01.jpg" aspectRatio="16/9" radius="l" sizes="400px" />
+        <Column fillWidth padding="12" gap="8" horizontal="start">
+          <Text variant="heading-strong-m" onBackground="neutral-strong" align="left">
+            Card Title
+          </Text>
+          <Text variant="body-default-s" onBackground="neutral-weak" align="left">
+            This is a description of the card. It can contain multiple lines of text.
+          </Text>
+        </Column>
+      </Card>
+    </Row>
+    }
+    codes={[
+      {
+        code:
+`<Card
+    href=" "
+    maxWidth={20}
+    radius="l-4"
+    direction="column"
+    padding="4"
+  >
+    <Media src="/images/projects/project-01/cover-01.jpg" aspectRatio="16/9" radius="l" sizes="400px" />
+    <Column fillWidth padding="12" gap="8" horizontal="start">
+      <Text variant="heading-strong-m" onBackground="neutral-strong" align="left">
+        Card Title
+      </Text>
+      <Text variant="body-default-s" onBackground="neutral-weak" align="left">
+        This is a description of the card. It can contain multiple lines of text.
+      </Text>
+    </Column>
+</Card>`,
+        language: "tsx",
+        label: "Card"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/card" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Icon
+
+Icons are used to visually represent actions, objects, or concepts. For instructions on importing new icons, head over to [the Once UI documentation](https://once-ui.com/docs/icons).
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codeHeight={24}
+    preview={<Row gap="24" wrap>
+      <Icon name="rocket" onBackground="danger-medium" size="m" />
+      <Icon name="close" size="m" />
+      <Icon name="check" onBackground="success-medium" size="m" />
+      <Icon name="info" onBackground="info-medium" size="m" />
+      <Icon name="warning" onBackground="warning-medium" size="m" />
+      <Icon name="chevronDown" size="m" />
+      <Icon name="search" size="m" />
+    </Row>}
+    codes={[
+      {
+        code:
+`<Icon name="rocket" size="m" />
+<Icon name="close" size="m" />
+<Icon name="check" onBackground="success-medium" size="m" />
+<Icon name="info" onBackground="info-medium" size="m" />
+<Icon name="warning" onBackground="warning-medium" size="m" />
+<Icon name="chevronDown" size="m" />
+<Icon name="search" size="m" />`,
+        language: "tsx",
+        label: "Icon"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/icon" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Layout
+
+Layout components help structure content on the page.
+
+### Flex
+
+The Flex component is accessible as `Column` and `Row` and can handle a wide range of layout options and style properties.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    preview={
+    <Row
+      fillWidth
+      s={{direction: "column"}}
+      gap="16"
+    >
+      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+        <Row padding="8">Row Item</Row>
+        <Row padding="8">Row Item</Row>
+      </Column>
+      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+        <Row padding="8">Row Item</Row>
+        <Row padding="8">Row Item</Row>
+      </Column>
+      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+        <Row padding="8">Row Item</Row>
+        <Row padding="8">Row Item</Row>
+      </Column>
+      <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+        <Row padding="8">Row Item</Row>
+        <Row padding="8">Row Item</Row>
+      </Column>
+    </Row>}
+    codeHeight={24}
+    codes={[
+      {
+        code:
+`<Row
+    fillWidth
+    s={{direction: "column"}}
+    gap="16"
+  >
+    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+      <Row padding="8">Row Item</Row>
+      <Row padding="8">Row Item</Row>
+    </Column>
+    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+      <Row padding="8">Row Item</Row>
+      <Row padding="8">Row Item</Row>
+    </Column>
+    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+      <Row padding="8">Row Item</Row>
+      <Row padding="8">Row Item</Row>
+    </Column>
+    <Column fillWidth border="neutral-alpha-medium" padding="16" radius="m">
+      <Row padding="8">Row Item</Row>
+      <Row padding="8">Row Item</Row>
+    </Column>
+</Row>`,
+        language: "tsx",
+        label: "Layout"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/flex" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+### Grid
+
+Use the grid to construct responsive grid layouts. It can be styled similarly to the Flex element.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    preview={
+    <Grid
+      fillWidth
+      columns="3"
+      s={{columns: 2}}
+      gap="16"
+    >
+      <Column border="neutral-alpha-medium" padding="16" radius="m">
+        <Text>Grid Item</Text>
+      </Column>
+      <Column border="neutral-alpha-medium" padding="16" radius="m">
+        <Text>Grid Item</Text>
+      </Column>
+      <Column border="neutral-alpha-medium" padding="16" radius="m">
+        <Text>Grid Item</Text>
+      </Column>
+      <Column border="neutral-alpha-medium" padding="16" radius="m">
+        <Text>Grid Item</Text>
+      </Column>
+      <Column border="neutral-alpha-medium" padding="16" radius="m">
+        <Text>Grid Item</Text>
+      </Column>
+      <Column border="neutral-alpha-medium" padding="16" radius="m">
+        <Text>Grid Item</Text>
+      </Column>
+    </Grid>}
+    codeHeight={24}
+    codes={[
+      {
+        code:
+`<Grid
+    fillWidth
+    columns="3"
+    s={{columns: 2}}
+    gap="16"
+  >
+    <Column border="neutral-alpha-medium" padding="16" radius="m">
+      <Text>Grid Item</Text>
+    </Column>
+    <Column border="neutral-alpha-medium" padding="16" radius="m">
+      <Text>Grid Item</Text>
+    </Column>
+    <Column border="neutral-alpha-medium" padding="16" radius="m">
+      <Text>Grid Item</Text>
+    </Column>
+    <Column border="neutral-alpha-medium" padding="16" radius="m">
+      <Text>Grid Item</Text>
+    </Column>
+    <Column border="neutral-alpha-medium" padding="16" radius="m">
+      <Text>Grid Item</Text>
+    </Column>
+    <Column border="neutral-alpha-medium" padding="16" radius="m">
+      <Text>Grid Item</Text>
+    </Column>
+</Grid>`,
+        language: "tsx",
+        label: "Layout"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/grid" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Media
+
+Media provides an optimized way to display images. Access it with the `Media` component for full customization or use the markdown syntax.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codeHeight={24}
+    preview={<Media src="/images/projects/project-01/cover-01.jpg" alt="Example image" sizes="640px" aspectRatio="16/9" radius="l" />}
+    codes={[
+      {
+        code:
+`<Media
+    src="/images/projects/project-01/cover-01.jpg"
+    sizes="640px"
+    alt="Example image"
+    aspectRatio="16/9"
+    radius="l"
+/>`,
+        language: "tsx",
+        label: "Media"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/Media" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+You can also use it to embed YouTube videos.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    codeHeight={24}
+    preview={<Media src="https://www.youtube.com/watch?v=TQT_FSdxbC8" alt="Example video" aspectRatio="16/9" radius="l" />}
+    codes={[
+      {
+        code:
+`<Media
+    src="https://www.youtube.com/watch?v=TQT_FSdxbC8"
+    alt="Example video"
+    aspectRatio="16/9"
+    radius="l"
+/>`,
+        language: "tsx",
+        label: "Media"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/Media" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Link
+
+SmartLink provides an enhanced way to link to internal and external resources. You can access it with the `SmartLink` component for full customization or with the standard markdown syntax.
+
+<Column fillWidth gap="-1" marginBottom="16" marginTop="8">
+<CodeBlock
+    radius="none"
+    topRadius="l"
+    preview={
+      <Row  fillWidth horizontal="center">
+        <SmartLink href=" " suffixIcon="chevronRight">Link with icon</SmartLink>
+      </Row>
+    }
+    codes={[
+      {
+        code:
+`<SmartLink href=" " suffixIcon="chevronRight">Link with icon</SmartLink>`,
+        language: "tsx",
+        label: "SmartLink"
+      }
+    ]}
+/>
+<Row fillWidth bottomRadius="l" padding="4" border="neutral-medium" background="surface">
+    <Button href="https://once-ui.com/docs/smart-link" weight="default" label="View on Once UI" size="s" variant="tertiary" suffixIcon="chevronRight"/>
+</Row>
+</Column>
+
+## Custom components
+
+Since Magic Portfolio is based on Once UI, you can use all the components provided by Once UI in the `.mdx` files, but you need to import them first in the `src/product/mdx.tsx` file and pass it to the `components` object.
+
+<CodeBlock
+    marginBottom="16" marginTop="8"
+    highlight="2"
+    codes={[
+      {
+        code:
+`const components = {
+    // Add new components
+    p: createParagraph as any,
+    h1: createHeading("h1") as any,
+    ...
+    Media,
+    SmartLink,
+};`,
+        language: "tsx",
+        label: "src/product/mdx.tsx"
+      }
+    ]}
+/>d:["$","$L7",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L8","styling",{"post":{"metadata":{"title":"Styling your portfolio","subtitle":"","publishedAt":"2025-04-21","summary":"Magic Portfolio's styling is based on Once UI's customization through data-attributes.","image":"/images/gallery/horizontal-3.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"styling","content":"$15"},"thumbnail":false,"direction":"$undefined"}],["$","$L8","components",{"post":{"metadata":{"title":"Using custom components in markdown","subtitle":"","publishedAt":"2025-04-20","summary":"Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"components","content":"$16"},"thumbnail":false,"direction":"$undefined"}],"$L17","$L18","$L19","$L1a","$L1b","$L1c","$L1d"]}]
+e:["$","script","script-0",{"src":"/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js","async":true,"nonce":"$undefined"}]
+f:["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
+10:["$","$1","h",{"children":[null,["$","$L21",null,{"children":"$L22"}],["$","div",null,{"hidden":true,"children":["$","$L23",null,{"children":["$","$1f",null,{"name":"Next.Metadata","children":"$L24"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+25:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$25"}}]}],["$","$L26",null,{"children":["$","$L5",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L27",null,{"fill":true,"position":"absolute","children":["$","$L28",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L29",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L2a",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L2b",null,{"children":"$L2c"}]}]}],"$L2d"]}]}]]}]
+33:I[778454,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Row"]
+34:I[624379,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"SmartLink"]
+35:I[298229,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"IconButton"]
+2e:T89b,
+## Manage projects
+
+You can create, edit and delete projects by adding, modifying or removing `*.mdx` files in the `src/app/work/projects` directory.
+
+## Frontmatter
+
+The frontmatter is used to set the project's metadata: title, description, image, and tags. It's used in the project's page and in meta- and open graph tags.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+      {
+        code:
+`---
+title: "Developing a design system for indie creators"
+publishedAt: "2025-03-17"
+summary: "Once UI is a design system that empowers indie creators, small teams, and startups to build web applications."
+images:
+  - "/images/projects/project-01/cover-02.jpg"
+  - "/images/projects/project-01/image-03.jpg"
+team:
+  - name: "Lorant One"
+    role: "Software Engineer"
+    avatar: "/images/avatar.jpg"
+    linkedIn: "https://www.linkedin.com/company/once-ui/"
+link: "https://once-ui.com/"
+---`,
+        language: "tsx",
+        label: "src/app/work/projects/project-1.mdx"
+      }
+    ]}
+/>
+
+## MDX syntax
+
+You can use MDX to write the content of your projects. It helps you write rich and dynamic content with minimal code. Some MDX elements will be automatically transformed to Once UI components to integrate better in the design and add additional functionality.
+
+## Custom components
+
+You can use custom components in MDX files, but you need to import them first in the `src/components/mdx.tsx` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="11-12"
+    codes={[
+      {
+        code:
+`const components = {
+    p: createParagraph as any,
+    h1: createHeading(1) as any,
+    h2: createHeading(2) as any,
+    h3: createHeading(3) as any,
+    h4: createHeading(4) as any,
+    h5: createHeading(5) as any,
+    h6: createHeading(6) as any,
+    img: createImage as any,
+    a: CustomLink as any,
+    Table,
+    CodeBlock,
+};`,
+        language: "tsx",
+        label: "src/components/mdx.tsx"
+      }
+    ]}
+/>
+
+As you can see, the `Table` and `CodeBlock` components are already imported and available for use. You can add more by simply importing them to this file and passing them to the `components` object.
+
+## Hot reload
+
+Hot reload of MDX files is currently not supported, but we're working on it.17:["$","$L8","work",{"post":{"metadata":{"title":"Create,edit and delete projects","subtitle":"","publishedAt":"2025-04-19","summary":"Create, edit and delete projects in the work section of your Magic Portfolio.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"work","content":"$2e"},"thumbnail":false,"direction":"$undefined"}]
+2f:Tc94,
+## Avatar
+
+Replace the `public/images/avatar.jpg` file with your own avatar image. It is used on the `/about` page as well as on the dynamically generated `open-graph` images.
+
+## Favicon
+
+Replace the `src/app/favicon.ico` file with your own favicon.
+
+## Content
+
+Replace the content in the `resources/content.js` file with your own content. You can use custom components in most cases, since the props are usually declared as `ReactNode` instead of `string`, but it's important that you need to import them in the file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="1-2"
+    codes={[
+  {
+    code:
+`import { InlineCode } from "@once-ui-system/core";
+import Link from "next/link";
+
+const person = {
+  ...
+};`,
+    language: "tsx",
+    label: "src/app/resources/content.js"
+  }
+]} />
+
+The imports above would let us use `InlineCode` and `Link` components in the content file.
+
+### Personal details
+
+Your personal details are used across the whole app to render personalized headings, labels and images. Languages are displayed on the `/about` page, and location and time in the header.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="2-3,7-10"
+    codes={[
+  {
+    code:
+`const person = {
+    firstName: "Selene",
+    lastName: "Yu",
+    get name() {
+      return "...";
+    },
+    role: "Design Engineer",
+    avatar: "/images/avatar.jpg",
+    location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+};`,
+    language: "tsx",
+    label: "src/app/resources/content.js"
+  }
+]} />
+
+### Social links
+
+Social links are rendered on the `/about` page and in the footer based on the array configured in the `social` object. You can set custom icons to each, but don't forget to import them in `src/once-ui/icons.ts`. Read the Once UI documentation](https://once-ui.com/docs/icons) for more information.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+  {
+    code:
+`const social = [
+    {
+      name: "GitHub",
+      icon: "github",
+      link: "https://github.com/once-ui-system/nextjs-starter",
+    },
+    {
+      name: "Email",
+      icon: "email",
+      link: "mailto:lorant@once-ui.com",
+    },
+];`,
+    language: "tsx",
+    label: "src/app/resources/content.js"
+  }
+]} />
+
+### Pages
+
+Each page have it's own object that manages the personalized content, such as headings, subheadings, images and dynamic data.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+  {
+    code:
+`const home = {
+    label: "Home",
+    title: "Selene Yu's Portfolio",
+    description: "Portfolio website showcasing my work as a Design Engineer",
+    headline: <>Design engineer and builder</>,
+    subline: (
+      <>
+        I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
+        <br /> user experiences. After hours, I build my own projects.
+      </>
+    ),
+};`,
+    language: "tsx",
+    label: "src/app/resources/content.js"
+  }
+]} />
+
+The `label` property is used in the header navigation. The `title` property is used for the page title and the `description` property is used for the page description. They are also used in meta- and open graph tags.18:["$","$L8","content",{"post":{"metadata":{"title":"Updating the content of Magic Portfolio","subtitle":"","publishedAt":"2025-04-18","summary":"Personalize the portfolio template with your own content.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"content","content":"$2f"},"thumbnail":false,"direction":"$undefined"}]
+19:["$","$L8","password",{"post":{"metadata":{"title":"Create password protected pages","subtitle":"","publishedAt":"2025-04-17","summary":"Create password protected pages through the RouteGuard component.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"password","content":"\n## Add protected pages\n\nTo enable password protection for specific pages, add the page paths you want to protect to the `protectedRoutes` object in the `resources/config.js` file.\n\nThe `RouteGuard` component will automatically handle access control for these pages, requiring password authentication before allowing access.\n\n<CodeBlock\n    marginBottom=\"16\"\n    highlight=\"2\"\n    codes={[\n  {\n    code:\n`const protectedRoutes = {\n  '/work/once-ui': true\n};`,\n    language: \"tsx\",\n    label: \"src/app/resources/config.js\"\n  }\n]} />\n\nThe code above will ensure that the `/work/once-ui` page is only accessible after providing a password. \n\n## Set a password\n\nThe password can be set in the `.env.local` file for local development and as an [environment variable](https://vercel.com/docs/environment-variables) for production."},"thumbnail":false,"direction":"$undefined"}]
+30:T8e9,
+## Mailchimp account
+
+Sign up for a [Mailchimp account](https://mailchimp.com) and create a new list if you don't have one.
+
+## Embed form
+
+Create a new [embed form](https://mailchimp.com/help/add-a-signup-form-to-your-website/) and copy the form URL to your Magic Portfolio config.
+
+<CodeBlock
+    highlight="2"
+    codes={[
+  {
+    code:
+`const mailchimp = {
+    action: 'https://url/subscribe/post?parameters',
+    effects: {
+      ...
+    }
+};`, 
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />
+
+## Newsletter content
+
+You can modify the headline and description in the `content.js` file.
+
+<CodeBlock
+    highlight="2"
+    codes={[
+  {
+    code:
+`const newsletter = {
+    display: true,
+    title: <>Subscribe to {person.firstName}'s Newsletter</>,
+    description: (
+      <>
+        I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.
+      </>
+    ),
+};`, 
+    language: "tsx",
+    label: "src/app/resources/content.js"
+  }
+]} />
+
+## Background effect
+
+There's a pre-configured background in `Mailchimp.tsx` that you can modify in the `mailchimp` object. Set graphic elements such as gradient, dots, lines, and grid and configure their appearance for the newsletter block.
+
+<CodeBlock
+    codeHeight={24}
+    marginBottom="16"
+    codes={[
+  {
+    code:
+`const mailchimp = {
+    action: 'https://url/subscribe/post?parameters',
+    effects: {
+      mask: {
+        cursor: false,
+        x: 50,
+        y: 0,
+        radius: 100
+      },
+      gradient: {
+        display: true,
+        x: 50,
+        y: -25,
+        width: 100,
+        height: 100,
+        tilt: 0,
+        colorStart: 'accent-background-strong',
+        colorEnd: 'static-transparent',
+        opacity: 50
+      },
+      dots: {
+        display: true,
+        size: 2,
+        color: 'brand-on-background-weak',
+        opacity: 20
+      },
+      lines: {
+        display: false,
+        color: 'neutral-alpha-weak',
+        opacity: 100
+      },
+      grid: {
+        display: false,
+        color: 'neutral-alpha-weak',
+        opacity: 100,
+        width: 'var(--static-space-32)',
+        height: 'var(--static-space-32)'
+      }
+  }
+}`, 
+    language: "tsx",
+    label: "src/app/resources/config.js"
+  }
+]} />1a:["$","$L8","mailchimp",{"post":{"metadata":{"title":"Set up Mailchimp and collect emails","subtitle":"","publishedAt":"2025-04-16","summary":"Set up the Mailchimp newsletter block for your Magic Portfolio.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"mailchimp","content":"$30"},"thumbnail":false,"direction":"$undefined"}]
+1b:["$","$L8","localization",{"post":{"metadata":{"title":"Localized version of Magic Portfolio","subtitle":"","publishedAt":"2025-04-15","summary":"Magic Portfolio was localized by François Hernandez.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"localization","content":"\nIn the latest version of Magic Portfolio, localization is no longer supported. However, the localized version created by [François Hernandez](https://github.com/francoishernandez) is still available as a [separate branch](https://github.com/once-ui-system/magic-portfolio/tree/localization-(Once-UI-0.4.2)). This branch will not receive further updates."},"thumbnail":false,"direction":"$undefined"}]
+31:T4ae,
+## Meta tags
+
+Magic Portfolio automatically generates meta- and open graph tags for your pages based on the `content.js` file.
+
+## Schema
+
+Magic Portfolio automatically generates schema tags for your pages based on the `content.js` file.
+
+## Open Graph image
+
+Social sharing images (open-graph and twitter) are automatically generated with `next/og`.
+
+<Feedback
+    icon
+    marginBottom="16"
+    description={<>
+        Make sure you have updated the <InlineCode>content.js</InlineCode> file with your own information and the <InlineCode>baseURL</InlineCode> variable in the <InlineCode>config.js</InlineCode> file.
+    </>}
+/>
+
+<CodeBlock
+    marginBottom="16"
+    highlight="4"
+    codes={[
+      {
+        code:
+`export async function generateMetadata() {
+  const title = home.title;
+  const description = home.description;
+  const ogImage = \`https://\/api/og/generate?title=\${encodeURIComponent(title)}\`;
+   ...
+};`,
+        language: "tsx",
+        label: "src/app/{page}/page.tsx"
+      }
+    ]}
+/>
+
+The above declaration generates the social image with the title of the page. You can use a static image by replacing the `ogImage` value with a path to an image in the `public` directory.1c:["$","$L8","seo",{"post":{"metadata":{"title":"SEO settings for Magic Portfolio","subtitle":"","publishedAt":"2025-04-14","summary":"Manage your Magic Portfolio's SEO settings.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"seo","content":"$31"},"thumbnail":false,"direction":"$undefined"}]
+32:T7a2,
+## Manage posts
+
+You can create, edit and delete posts by adding, modifying or removing `*.mdx` files in the `src/app/blog/posts` directory.
+
+## Frontmatter
+
+The frontmatter is used to set the post's metadata: title, description, image, and tags. It's used in the post's page and in meta- and open graph tags.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+      {
+        code:
+`---
+title: "Arriving to a new milestone in my career"
+publishedAt: "2024-04-08"
+image: "/images/gallery/img-02.jpg"
+summary: "Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path."
+tag: "Journal"
+---`,
+        language: "tsx",
+        label: "src/app/blog/posts/post-1.mdx"
+      }
+    ]}
+/>
+
+## MDX syntax
+
+You can use MDX to write the content of your posts. It helps you write rich and dynamic content with minimal code. Some MDX elements will be automatically transformed to Once UI components to integrate better in the design and add additional functionality.
+
+## Custom components
+
+You can use custom components in MDX files, but you need to import them first in the `src/components/mdx.tsx` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="11-12"
+    codes={[
+      {
+        code:
+`const components = {
+    p: createParagraph as any,
+    h1: createHeading(1) as any,
+    h2: createHeading(2) as any,
+    h3: createHeading(3) as any,
+    h4: createHeading(4) as any,
+    h5: createHeading(5) as any,
+    h6: createHeading(6) as any,
+    img: createImage as any,
+    a: CustomLink as any,
+    Table,
+    CodeBlock,
+};`,
+        language: "tsx",
+        label: "src/components/mdx.tsx"
+      }
+    ]}
+/>
+
+As you can see, the `Table` and `CodeBlock` components are already imported and available for use. You can add more by simply importing them to this file and passing them to the `components` object.
+
+## Hot reload
+
+Hot reload of MDX files is currently not supported, but we're working on it.1d:["$","$L8","blog",{"post":{"metadata":{"title":"Create, edit and delete blog posts","subtitle":"","publishedAt":"2025-03-17","summary":"Create, edit and delete posts in the blog section of your Magic Portfolio.","image":"","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"blog","content":"$32"},"thumbnail":false,"direction":"$undefined"}]
+2c:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L5",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+2d:["$","$L33",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L33",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Christian J. Cardenas"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["/ Build your portfolio with"," ",["$","$L34",null,{"href":"https://once-ui.com/products/magic-portfolio","children":"Once UI"}]]}]]}],["$","$L33",null,{"gap":"16","children":[["$","$L35","GitHub",{"href":"https://github.com/","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L35","LinkedIn",{"href":"https://www.linkedin.com/in/christian-cardenas-5a07302aa/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L35","Email",{"href":"mailto:christian.j.cardenas05@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L33",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+22:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+36:I[27201,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"IconMark"]
+20:null
+24:[["$","title","0",{"children":"Writing about tech and finance..."}],["$","meta","1",{"name":"description","content":"Read what Christian J. Cardenas has been up to recently"}],["$","meta","2",{"property":"og:title","content":"Writing about tech and finance..."}],["$","meta","3",{"property":"og:description","content":"Read what Christian J. Cardenas has been up to recently"}],["$","meta","4",{"property":"og:url","content":"https://demo.magic-portfolio.com/blog"}],["$","meta","5",{"property":"og:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20tech%20and%20finance..."}],["$","meta","6",{"property":"og:image:alt","content":"Writing about tech and finance..."}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Writing about tech and finance..."}],["$","meta","10",{"name":"twitter:description","content":"Read what Christian J. Cardenas has been up to recently"}],["$","meta","11",{"name":"twitter:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Writing%20about%20tech%20and%20finance..."}],["$","link","12",{"rel":"icon","href":"/Portfolio/favicon.ico?favicon.159dc815.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L36","13",{}]]

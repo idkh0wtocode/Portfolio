@@ -1,0 +1,202 @@
+1:"$Sreact.fragment"
+3:I[339756,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"default"]
+4:I[837457,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"default"]
+6:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
+9:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"ViewportBoundary"]
+b:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"MetadataBoundary"]
+d:I[168027,[],"default"]
+:HL["/Portfolio/_next/static/chunks/93ac2d54f71ec8d4.css","style"]
+:HL["/Portfolio/_next/static/chunks/d20e0f0702cef329.css","style"]
+:HL["/Portfolio/_next/static/chunks/d588c598996efe03.css","style"]
+:HL["/Portfolio/_next/static/chunks/eef662fdc50843a7.css","style"]
+:HL["/Portfolio/_next/static/chunks/b3a7f4834154c9dc.css","style"]
+:HL["/Portfolio/_next/static/media/797e433ab948586e-s.p.dbea232f.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/Portfolio/_next/static/media/caa3a2e1cccd8315-s.p.853070df.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"P":null,"b":"O4eum9yrkJC2d-DB5D7Cx","c":["","blog","content"],"q":"","i":false,"f":[[["",{"children":["blog",{"children":[["slug","content","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/93ac2d54f71ec8d4.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/d20e0f0702cef329.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","2",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/d588c598996efe03.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","3",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/eef662fdc50843a7.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","4",{"rel":"stylesheet","href":"/Portfolio/_next/static/chunks/b3a7f4834154c9dc.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/Portfolio/_next/static/chunks/1641ded1f24452da.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/Portfolio/_next/static/chunks/da88470138ff993a.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","async":true,"nonce":"$undefined"}]],"$L2"]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$1","c",{"children":["$L5",[["$","script","script-0",{"src":"/Portfolio/_next/static/chunks/9297aeb96eeb50db.js","async":true,"nonce":"$undefined"}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],{},null,false,false]},null,false,false]},null,false,false]},null,false,false],["$","$1","h",{"children":[null,["$","$L9",null,{"children":"$La"}],["$","div",null,{"hidden":true,"children":["$","$Lb",null,{"children":["$","$7",null,{"name":"Next.Metadata","children":"$Lc"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],false]],"m":"$undefined","G":["$d",[]],"S":true}
+f:I[530824,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Providers"]
+10:I[273323,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Column"]
+11:I[621971,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"RevealFx"]
+12:I[394412,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Background"]
+13:I[521247,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ClientFlex"]
+14:I[402971,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Header"]
+15:I[1166,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"RouteGuard"]
+e:T76b,
+              (function() {
+                try {
+                  const root = document.documentElement;
+                  const defaultTheme = 'system';
+                  
+                  // Set defaults from config
+                  const config = {"brand":"cyan","accent":"red","neutral":"gray","solid":"contrast","solid-style":"flat","border":"playful","surface":"translucent","transition":"all","scaling":"100","viz-style":"gradient"};
+                  
+                  // Apply default values
+                  Object.entries(config).forEach(([key, value]) => {
+                    root.setAttribute('data-' + key, value);
+                  });
+                  
+                  // Resolve theme
+                  const resolveTheme = (themeValue) => {
+                    if (!themeValue || themeValue === 'system') {
+                      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+                    }
+                    return themeValue;
+                  };
+                  
+                  // Apply saved theme
+                  const savedTheme = localStorage.getItem('data-theme');
+                  const resolvedTheme = resolveTheme(savedTheme);
+                  root.setAttribute('data-theme', resolvedTheme);
+                  
+                  // Apply any saved style overrides
+                  const styleKeys = Object.keys(config);
+                  styleKeys.forEach(key => {
+                    const value = localStorage.getItem('data-' + key);
+                    if (value) {
+                      root.setAttribute('data-' + key, value);
+                    }
+                  });
+                } catch (e) {
+                  console.error('Failed to initialize theme:', e);
+                  document.documentElement.setAttribute('data-theme', 'dark');
+                }
+              })();
+            2:["$","html",null,{"ref":"$undefined","className":"display-flex position-relative min-width-0 fill-width geist_d82bf9db-module__Ifi_Dq__variable geist_250f8b91-module__B2UTAq__variable geist_4edd9b70-module__GC7HaW__variable geist_mono_90672d7c-module__qcY_rq__variable ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"suppressHydrationWarning":true,"lang":"en","children":[["$","head",null,{"children":["$","script",null,{"id":"theme-init","dangerouslySetInnerHTML":{"__html":"$e"}}]}],["$","$Lf",null,{"children":["$","$L10",null,{"as":"body","background":"page","fillWidth":true,"style":{"minHeight":"100vh"},"margin":"0","padding":"0","horizontal":"center","children":[["$","$L11",null,{"fill":true,"position":"absolute","children":["$","$L12",null,{"mask":{"x":50,"y":0,"radius":100,"cursor":false},"gradient":{"display":false,"opacity":100,"x":50,"y":60,"width":100,"height":50,"tilt":0,"colorStart":"accent-background-strong","colorEnd":"page-background"},"dots":{"display":true,"opacity":40,"size":"2","color":"brand-background-strong"},"grid":{"display":false,"opacity":100,"color":"neutral-alpha-medium","width":"0.25rem","height":"0.25rem"},"lines":{"display":false,"opacity":100,"size":"16","thickness":1,"angle":45,"color":"neutral-alpha-weak"}}]}],["$","$L13",null,{"ref":"$undefined","cursor":"$undefined","xl":"$undefined","l":"$undefined","m":"$undefined","s":{"hide":true},"xs":"$undefined","style":"$undefined","hide":"$undefined","fillWidth":true,"minHeight":"16"}],["$","$L14",null,{}],["$","div",null,{"ref":"$undefined","className":"display-flex position-relative p-l flex-1 justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"$undefined","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","div",null,{"ref":"$undefined","className":"display-flex position-relative justify-center min-width-0 fill-width ","style":{"maxWidth":"$undefined","minWidth":"$undefined","minHeight":"var(--static-space-0)","maxHeight":"$undefined","width":"$undefined","height":"$undefined","aspectRatio":"$undefined","textAlign":"$undefined","cursor":"$undefined"},"children":["$","$L15",null,{"children":"$L16"}]}]}],"$L17"]}]}]]}]
+18:I[778454,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Row"]
+19:I[624379,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"SmartLink"]
+1a:I[298229,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"IconButton"]
+1b:I[479520,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],""]
+1c:I[145250,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Avatar"]
+1e:I[448588,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ShareSection"]
+1f:I[311451,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Line"]
+20:I[89532,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Grid"]
+21:I[814360,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"default"]
+16:["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L10",null,{"as":"section","fill":true,"center":true,"paddingBottom":"160","children":[["$","span",null,{"className":"font-display font-strong font-xl mb-s","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"404"}],["$","h1",null,{"className":"font-display font-default font-xs neutral-on-background-strong mb-l","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Page Not Found"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"The page you are looking for does not exist."}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]
+17:["$","$L18",null,{"as":"footer","fillWidth":true,"padding":"8","horizontal":"center","s":{"direction":"column"},"children":[["$","$L18",null,{"className":"Footer-module-scss-module__DkSkqG__mobile","maxWidth":"m","paddingY":"8","paddingX":"16","gap":"16","horizontal":"between","vertical":"center","s":{"direction":"column","horizontal":"center","align":"center"},"children":[["$","span",null,{"className":"font-body font-default font-s neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":[["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["© ",2026," /"]}],["$","span",null,{"className":"px-4","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Christian J. Cardenas"}],["$","span",null,{"className":"neutral-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":["/ Build your portfolio with"," ",["$","$L19",null,{"href":"https://once-ui.com/products/magic-portfolio","children":"Once UI"}]]}]]}],["$","$L18",null,{"gap":"16","children":[["$","$L1a","GitHub",{"href":"https://github.com/","icon":"github","tooltip":"GitHub","size":"s","variant":"ghost"}],["$","$L1a","LinkedIn",{"href":"https://www.linkedin.com/in/christian-cardenas-5a07302aa/","icon":"linkedin","tooltip":"LinkedIn","size":"s","variant":"ghost"}],["$","$L1a","Email",{"href":"mailto:christian.j.cardenas05@gmail.com","icon":"email","tooltip":"Email","size":"s","variant":"ghost"}]]}]]}],["$","$L18",null,{"height":"80","hide":true,"s":{"hide":false}}]]}]
+22:T891,
+## Overview
+
+The Dictator's Handbook is a describes the selectorate theory as created by the author Bruce Bueno de Mesquita along with case studies of governments in where they succeeded and failed. 
+There are 3 groups of people the everyone can be a part of: 
+- essentials
+- influentials
+- interchangables
+
+My purpose for inspiration for reading this book was Trump's America. 
+
+
+## Frontmatter
+
+The frontmatter is used to set the post's metadata: title, description, image, and tags. It's used in the post's page and in meta- and open graph tags.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+      {
+        code:
+`---
+title: "Arriving to a new milestone in my career"
+publishedAt: "2024-04-08"
+image: "/images/gallery/img-02.jpg"
+summary: "Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path."
+tag: "Journal"
+---`,
+        language: "tsx",
+        label: "src/app/blog/posts/post-1.mdx"
+      }
+    ]}
+/>
+
+## MDX syntax
+
+You can use MDX to write the content of your posts. It helps you write rich and dynamic content with minimal code. Some MDX elements will be automatically transformed to Once UI components to integrate better in the design and add additional functionality.
+
+## Custom components
+
+You can use custom components in MDX files, but you need to import them first in the `src/components/mdx.tsx` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="11-12"
+    codes={[
+      {
+        code:
+`const components = {
+    p: createParagraph as any,
+    h1: createHeading(1) as any,
+    h2: createHeading(2) as any,
+    h3: createHeading(3) as any,
+    h4: createHeading(4) as any,
+    h5: createHeading(5) as any,
+    h6: createHeading(6) as any,
+    img: createImage as any,
+    a: CustomLink as any,
+    Table,
+    CodeBlock,
+};`,
+        language: "tsx",
+        label: "src/components/mdx.tsx"
+      }
+    ]}
+/>
+
+As you can see, the `Table` and `CodeBlock` components are already imported and available for use. You can add more by simply importing them to this file and passing them to the `components` object.
+
+## Hot reload
+
+Hot reload of MDX files is currently not supported, but we're working on it.5:["$","$L18",null,{"fillWidth":true,"children":[["$","$L18",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L18",null,{"fillWidth":true,"horizontal":"center","children":["$","$L10",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L1b",null,{"id":"schema-blogPosting-/blog/content","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog/content\",\"sameAs\":[],\"headline\":\"Updating the content of Magic Portfolio\",\"description\":\"Personalize the portfolio template with your own content.\",\"image\":\"https://demo.magic-portfolio.com/api/og/generate?title=Updating%20the%20content%20of%20Magic%20Portfolio\",\"datePublished\":\"2025-04-18\",\"dateModified\":\"2025-04-18\",\"author\":{\"@type\":\"Person\",\"name\":\"Christian J. Cardenas\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/avatar.jpg\"}}}"}}],["$","$L10",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L19",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"April 18, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textAlign":"$undefined","textWrap":"balance"},"children":"Updating the content of Magic Portfolio"}],""]}],["$","$L18",null,{"marginBottom":"32","horizontal":"center","children":["$","$L18",null,{"gap":"16","vertical":"center","children":[["$","$L1c",null,{"size":"s","src":"/images/avatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{"textAlign":"$undefined","textWrap":"$undefined"},"children":"Christian J. Cardenas"}]]}]}],"",["$","$L10",null,{"as":"article","maxWidth":"s","children":"$L1d"}],["$","$L1e",null,{"title":"Updating the content of Magic Portfolio","url":"https://demo.magic-portfolio.com/blog/content"}],["$","$L10",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L1f",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{"textAlign":"$undefined","textWrap":"$undefined"},"id":"recent-posts","children":"Recent posts"}],["$","$L20",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L21","dictator_handbook",{"post":{"metadata":{"title":"A Dictator's Handbook Review","subtitle":"","publishedAt":"2026-01-13","summary":"A book about how to stay in power.","image":"","images":[],"tag":"Book","team":[],"link":""},"slug":"dictator_handbook","content":"$22"},"thumbnail":true,"direction":"column"}],"$L23"]}]]}],"$L24"]}]}],"$L25"]}]
+27:I[988654,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ScrollToHash"]
+28:I[605649,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingNav"]
+26:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />23:["$","$L21","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$26"},"thumbnail":true,"direction":"column"}]
+24:["$","$L27",null,{}]
+25:["$","$L10",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L28",null,{"fitHeight":true}]}]
+29:I[811052,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingLink"]
+2a:I[362844,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"InlineCode"]
+2b:I[597784,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"CodeBlock"]
+1d:[["$","$L29",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"avatar","children":"Avatar"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Replace the ",["$","$L2a",null,{"children":"public/images/avatar.jpg"}]," file with your own avatar image. It is used on the ",["$","$L2a",null,{"children":"/about"}]," page as well as on the dynamically generated ",["$","$L2a",null,{"children":"open-graph"}]," images."]}],"\n",["$","$L29",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"favicon","children":"Favicon"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Replace the ",["$","$L2a",null,{"children":"src/app/favicon.ico"}]," file with your own favicon."]}],"\n",["$","$L29",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"content","children":"Content"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Replace the content in the ",["$","$L2a",null,{"children":"resources/content.js"}]," file with your own content. You can use custom components in most cases, since the props are usually declared as ",["$","$L2a",null,{"children":"ReactNode"}]," instead of ",["$","$L2a",null,{"children":"string"}],", but it's important that you need to import them in the file."]}],"\n",["$","$L2b",null,{"marginBottom":"16","highlight":"1-2","codes":[{"code":"import { InlineCode } from \"@once-ui-system/core\";\nimport Link from \"next/link\";\n\nconst person = {\n...\n};","language":"tsx","label":"src/app/resources/content.js"}]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The imports above would let us use ",["$","$L2a",null,{"children":"InlineCode"}]," and ",["$","$L2a",null,{"children":"Link"}]," components in the content file."]}],"\n",["$","$L29",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"personal-details","children":"Personal details"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Your personal details are used across the whole app to render personalized headings, labels and images. Languages are displayed on the ",["$","$L2a",null,{"children":"/about"}]," page, and location and time in the header."]}],"\n",["$","$L2b",null,{"marginBottom":"16","highlight":"2-3,7-10","codes":[{"code":"const person = {\n  firstName: \"Selene\",\n  lastName: \"Yu\",\n  get name() {\n    return \"...\";\n  },\n  role: \"Design Engineer\",\n  avatar: \"/images/avatar.jpg\",\n  location: \"Asia/Jakarta\", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'\n  languages: [\"English\", \"Bahasa\"], // optional: Leave the array empty if you don't want to display languages\n};","language":"tsx","label":"src/app/resources/content.js"}]}],"\n",["$","$L29",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"social-links","children":"Social links"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["Social links are rendered on the ",["$","$L2a",null,{"children":"/about"}]," page and in the footer based on the array configured in the ",["$","$L2a",null,{"children":"social"}]," object. You can set custom icons to each, but don't forget to import them in ",["$","$L2a",null,{"children":"src/once-ui/icons.ts"}],". Read the Once UI documentation](https://once-ui.com/docs/icons) for more information."]}],"\n",["$","$L2b",null,{"marginBottom":"16","codes":[{"code":"const social = [\n  {\n    name: \"GitHub\",\n    icon: \"github\",\n    link: \"https://github.com/once-ui-system/nextjs-starter\",\n  },\n  {\n    name: \"Email\",\n    icon: \"email\",\n    link: \"mailto:lorant@once-ui.com\",\n  },\n];","language":"tsx","label":"src/app/resources/content.js"}]}],"\n","$L2c","\n","$L2d","\n","$L2e","\n","$L2f"]
+2c:["$","$L29",null,{"marginTop":"24","marginBottom":"12","as":"h3","id":"pages","children":"Pages"}]
+2d:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":"Each page have it's own object that manages the personalized content, such as headings, subheadings, images and dynamic data."}]
+2e:["$","$L2b",null,{"marginBottom":"16","codes":[{"code":"const home = {\n  label: \"Home\",\n  title: \"Selene Yu's Portfolio\",\n  description: \"Portfolio website showcasing my work as a Design Engineer\",\n  headline: <>Design engineer and builder</>,\n  subline: (\n    <>\n      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive\n      <br /> user experiences. After hours, I build my own projects.\n    </>\n  ),\n};","language":"tsx","label":"src/app/resources/content.js"}]}]
+2f:["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"textAlign":"$undefined","textWrap":"$undefined","lineHeight":"175%"},"children":["The ",["$","$L2a",null,{"children":"label"}]," property is used in the header navigation. The ",["$","$L2a",null,{"children":"title"}]," property is used for the page title and the ",["$","$L2a",null,{"children":"description"}]," property is used for the page description. They are also used in meta- and open graph tags."]}]
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+30:I[27201,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"IconMark"]
+8:null
+c:[["$","title","0",{"children":"Updating the content of Magic Portfolio"}],["$","meta","1",{"name":"description","content":"Personalize the portfolio template with your own content."}],["$","meta","2",{"property":"og:title","content":"Updating the content of Magic Portfolio"}],["$","meta","3",{"property":"og:description","content":"Personalize the portfolio template with your own content."}],["$","meta","4",{"property":"og:url","content":"https://demo.magic-portfolio.com/blog/content"}],["$","meta","5",{"property":"og:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Updating%20the%20content%20of%20Magic%20Portfolio"}],["$","meta","6",{"property":"og:image:alt","content":"Updating the content of Magic Portfolio"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"Updating the content of Magic Portfolio"}],["$","meta","10",{"name":"twitter:description","content":"Personalize the portfolio template with your own content."}],["$","meta","11",{"name":"twitter:image","content":"https://demo.magic-portfolio.com/api/og/generate?title=Updating%20the%20content%20of%20Magic%20Portfolio"}],["$","link","12",{"rel":"icon","href":"/Portfolio/favicon.ico?favicon.159dc815.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L30","13",{}]]

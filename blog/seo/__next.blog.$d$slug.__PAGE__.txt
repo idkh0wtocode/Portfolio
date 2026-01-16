@@ -1,0 +1,134 @@
+1:"$Sreact.fragment"
+2:I[778454,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Row"]
+3:I[273323,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Column"]
+4:I[479520,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],""]
+5:I[624379,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"SmartLink"]
+6:I[145250,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Avatar"]
+7:I[811052,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingLink"]
+8:I[362844,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"InlineCode"]
+9:I[782769,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Feedback"]
+a:I[597784,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"CodeBlock"]
+b:I[448588,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ShareSection"]
+11:I[311451,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Line"]
+12:I[89532,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"Grid"]
+13:I[814360,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"default"]
+16:I[988654,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"ScrollToHash"]
+17:I[605649,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/9297aeb96eeb50db.js"],"HeadingNav"]
+18:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"OutletBoundary"]
+19:"$Sreact.suspense"
+0:{"buildId":"O4eum9yrkJC2d-DB5D7Cx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"fillWidth":true,"children":[["$","$L2",null,{"maxWidth":12,"m":{"hide":true}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","children":["$","$L3",null,{"as":"section","maxWidth":"m","horizontal":"center","gap":"l","paddingTop":"24","children":[["$","$L4",null,{"id":"schema-blogPosting-/blog/seo","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"url\":\"https://demo.magic-portfolio.com/blog/seo\",\"sameAs\":[],\"headline\":\"SEO settings for Magic Portfolio\",\"description\":\"Manage your Magic Portfolio's SEO settings.\",\"image\":\"https://demo.magic-portfolio.com/api/og/generate?title=SEO%20settings%20for%20Magic%20Portfolio\",\"datePublished\":\"2025-04-14\",\"dateModified\":\"2025-04-14\",\"author\":{\"@type\":\"Person\",\"name\":\"Christian J. Cardenas\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/avatar.jpg\"}}}"}}],["$","$L3",null,{"maxWidth":"s","gap":"16","horizontal":"center","align":"center","children":[["$","$L5",null,{"href":"/blog","children":["$","span",null,{"className":"font-label font-strong font-m","style":{},"children":"Blog"}]}],["$","span",null,{"className":"font-body font-default font-xs neutral-on-background-weak mb-12","style":{},"children":"April 14, 2025"}],["$","h1",null,{"className":"font-display font-strong font-m neutral-on-background-strong","style":{"textWrap":"balance"},"children":"SEO settings for Magic Portfolio"}],""]}],["$","$L2",null,{"marginBottom":"32","horizontal":"center","children":["$","$L2",null,{"gap":"16","vertical":"center","children":[["$","$L6",null,{"size":"s","src":"/images/avatar.jpg"}],["$","span",null,{"className":"font-label font-default font-m brand-on-background-weak","style":{},"children":"Christian J. Cardenas"}]]}]}],"",["$","$L3",null,{"as":"article","maxWidth":"s","children":[["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"meta-tags","children":"Meta tags"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Magic Portfolio automatically generates meta- and open graph tags for your pages based on the ",["$","$L8",null,{"children":"content.js"}]," file."]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"schema","children":"Schema"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Magic Portfolio automatically generates schema tags for your pages based on the ",["$","$L8",null,{"children":"content.js"}]," file."]}],"\n",["$","$L7",null,{"marginTop":"24","marginBottom":"12","as":"h2","id":"open-graph-image","children":"Open Graph image"}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["Social sharing images (open-graph and twitter) are automatically generated with ",["$","$L8",null,{"children":"next/og"}],"."]}],"\n",["$","$L9",null,{"icon":true,"marginBottom":"16","description":["Make sure you have updated the ",["$","$L8",null,{"children":"content.js"}]," file with your own information and the ",["$","$L8",null,{"children":"baseURL"}]," variable in the ",["$","$L8",null,{"children":"config.js"}]," file."]}],"\n",["$","$La",null,{"marginBottom":"16","highlight":"4","codes":[{"code":"export async function generateMetadata() {\nconst title = home.title;\nconst description = home.description;\nconst ogImage = `https:///api/og/generate?title=${encodeURIComponent(title)}`;\n ...\n};","language":"tsx","label":"src/app/{page}/page.tsx"}]}],"\n",["$","span",null,{"className":"font-body font-default font-m neutral-on-background-medium mt-8 mb-12","style":{"lineHeight":"175%"},"children":["The above declaration generates the social image with the title of the page. You can use a static image by replacing the ",["$","$L8",null,{"children":"ogImage"}]," value with a path to an image in the ",["$","$L8",null,{"children":"public"}]," directory."]}]]}],["$","$Lb",null,{"title":"SEO settings for Magic Portfolio","url":"https://demo.magic-portfolio.com/blog/seo"}],"$Lc","$Ld"]}]}],"$Le"]}],["$Lf"],"$L10"]}],"loading":null,"isPartial":false}
+14:T891,
+## Overview
+
+The Dictator's Handbook is a describes the selectorate theory as created by the author Bruce Bueno de Mesquita along with case studies of governments in where they succeeded and failed. 
+There are 3 groups of people the everyone can be a part of: 
+- essentials
+- influentials
+- interchangables
+
+My purpose for inspiration for reading this book was Trump's America. 
+
+
+## Frontmatter
+
+The frontmatter is used to set the post's metadata: title, description, image, and tags. It's used in the post's page and in meta- and open graph tags.
+
+<CodeBlock
+    marginBottom="16"
+    codes={[
+      {
+        code:
+`---
+title: "Arriving to a new milestone in my career"
+publishedAt: "2024-04-08"
+image: "/images/gallery/img-02.jpg"
+summary: "Every career is a journey, filled with challenges, growth, and those significant moments that mark a shift in our path."
+tag: "Journal"
+---`,
+        language: "tsx",
+        label: "src/app/blog/posts/post-1.mdx"
+      }
+    ]}
+/>
+
+## MDX syntax
+
+You can use MDX to write the content of your posts. It helps you write rich and dynamic content with minimal code. Some MDX elements will be automatically transformed to Once UI components to integrate better in the design and add additional functionality.
+
+## Custom components
+
+You can use custom components in MDX files, but you need to import them first in the `src/components/mdx.tsx` file.
+
+<CodeBlock
+    marginBottom="16"
+    highlight="11-12"
+    codes={[
+      {
+        code:
+`const components = {
+    p: createParagraph as any,
+    h1: createHeading(1) as any,
+    h2: createHeading(2) as any,
+    h3: createHeading(3) as any,
+    h4: createHeading(4) as any,
+    h5: createHeading(5) as any,
+    h6: createHeading(6) as any,
+    img: createImage as any,
+    a: CustomLink as any,
+    Table,
+    CodeBlock,
+};`,
+        language: "tsx",
+        label: "src/components/mdx.tsx"
+      }
+    ]}
+/>
+
+As you can see, the `Table` and `CodeBlock` components are already imported and available for use. You can add more by simply importing them to this file and passing them to the `components` object.
+
+## Hot reload
+
+Hot reload of MDX files is currently not supported, but we're working on it.15:T43f,
+## About
+
+Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.
+
+## License
+
+Magic Portfolio is licensed under the [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can only use it for personal purposes, and you must attribute the original work. The attribution is added in the footer by default, but you can place it in any other, visible part of your site.
+
+Subscribe to the [Once UI Pro plan](https://once-ui.com/pricing) to extend the license to [Dopler CC](https://once-ui.com/products/magic-portfolio).
+
+## Quick start
+
+Clone the git repository:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "git clone https://github.com/once-ui-system/magic-portfolio.git",
+    language: "bash"
+  }
+]} />
+
+Install the necessary dependencies:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm install",
+    language: "bash"
+  }
+]} />
+
+Start the local development server:
+
+<CodeBlock compact marginBottom="16" codes={[
+  {
+    code: "npm run dev",
+    language: "bash"
+  }
+]} />c:["$","$L3",null,{"fillWidth":true,"gap":"40","horizontal":"center","marginTop":"40","children":[["$","$L11",null,{"maxWidth":"40"}],["$","h2",null,{"className":"font-heading font-strong font-xl mb-24","style":{},"id":"recent-posts","children":"Recent posts"}],["$","$L12",null,{"columns":"2","s":{"columns":1},"fillWidth":true,"marginBottom":"40","gap":"16","children":[["$","$L13","dictator_handbook",{"post":{"metadata":{"title":"A Dictator's Handbook Review","subtitle":"","publishedAt":"2026-01-13","summary":"A book about how to stay in power.","image":"","images":[],"tag":"Book","team":[],"link":""},"slug":"dictator_handbook","content":"$14"},"thumbnail":true,"direction":"column"}],["$","$L13","quick-start",{"post":{"metadata":{"title":"Quick start with Magic Portfolio","subtitle":"A comprehensive guide to setting up your professional portfolio in minutes","publishedAt":"2025-04-23","summary":"Magic Portfolio is a comprehensive, MDX-based, SEO-friendly, responsive portfolio template built with Once UI and Next.js.","image":"/images/gallery/horizontal-1.jpg","images":[],"tag":"Magic Portfolio","team":[],"link":""},"slug":"quick-start","content":"$15"},"thumbnail":true,"direction":"column"}]]}]]}]
+d:["$","$L16",null,{}]
+e:["$","$L3",null,{"maxWidth":12,"paddingLeft":"40","fitHeight":true,"position":"sticky","top":"80","gap":"16","m":{"hide":true},"children":["$","$L17",null,{"fitHeight":true}]}]
+f:["$","script","script-0",{"src":"/Portfolio/_next/static/chunks/9297aeb96eeb50db.js","async":true}]
+10:["$","$L18",null,{"children":["$","$19",null,{"name":"Next.MetadataOutlet","children":"$@1a"}]}]
+1a:null

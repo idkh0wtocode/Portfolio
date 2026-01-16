@@ -1,0 +1,132 @@
+1:"$Sreact.fragment"
+2:I[273323,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Column"]
+3:I[479520,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],""]
+4:I[621971,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"RevealFx"]
+5:I[117899,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Badge"]
+6:I[778454,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Row"]
+7:I[311451,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Line"]
+8:I[691722,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Button"]
+9:I[145250,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Avatar"]
+a:I[474855,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"ProjectCard"]
+14:I[303847,["/Portfolio/_next/static/chunks/beaa8a9a0599e4d6.js","/Portfolio/_next/static/chunks/1641ded1f24452da.js","/Portfolio/_next/static/chunks/1a0bc6f650542e8b.js","/Portfolio/_next/static/chunks/da88470138ff993a.js","/Portfolio/_next/static/chunks/2079049d5abbbd3d.js","/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js"],"Mailchimp"]
+15:I[897367,["/Portfolio/_next/static/chunks/d96012bcfc98706a.js","/Portfolio/_next/static/chunks/963c71eec1d89c3f.js"],"OutletBoundary"]
+16:"$Sreact.suspense"
+b:T6f8,
+[Click here to View Project](https://github.com/idkh0wtocode/Assignment-Extensions-LTI-App)
+
+## Overview
+A sophisticated full-stack web application integrated with **Canvas LMS** via the **LTI 1.3 protocol**. This system streamlines the assignment extension workflow, replacing messy email chains with a centralized, secure dashboard.
+
+
+## Technologies
+
+**Technology Stack:** Python (Flask), SQLAlchemy ORM, LTI 1.3 Integration, Canvas API, SQLite Database, WTForms, HTML/CSS (Tailwind), Jinja2 Templating
+
+**Key Features:**
+- Secure LTI 1.3 authentication and Canvas integration
+- Role-based access control (student vs. instructor views)
+- Real-time assignment data synchronization from Canvas API
+- Automated due date override functionality
+- Request lifecycle management (pending → approved/denied)
+- Persistent storage with database migrations
+
+---
+
+
+## Technical Implementation
+- **LTI 1.3 & OAuth 2.0:** Built a secure handshake using JSON Web Keys (JWK) for seamless, authenticated launches directly from Canvas.
+- **Real-time Synchronization:** Integrated the **Canvas REST API** to dynamically fetch assignment data and student context.
+- **Role-Based Access (RBAC):** Developed custom routing to serve unique interfaces for students (request submission) and instructors (approval dashboard).
+- **Persistent Storage:** Designed a normalized SQLAlchemy schema to track the full lifecycle of a request from "Pending" to "Approved/Denied."
+
+
+
+## Impact
+- **70% Efficiency Gain:** Centralized management reduces instructor administrative time significantly.
+- **Standardization:** Creates a consistent, audit-ready process for extension handling across multiple courses.
+- **Security:** Implemented CSRF protection, secure session management, and course-level data isolation.
+0:{"buildId":"O4eum9yrkJC2d-DB5D7Cx","rsc":["$","$1","c",{"children":[["$","$L2",null,{"maxWidth":"m","gap":"xl","paddingY":"12","horizontal":"center","children":[["$","$L3",null,{"id":"schema-webPage-/","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"WebPage\",\"url\":\"https://demo.magic-portfolio.com/\",\"sameAs\":[],\"headline\":\"Christian J. Cardenas's Portfolio\",\"description\":\"Portfolio website showcasing my work as a Computer Science Student\",\"image\":\"https://demo.magic-portfolio.com/api/og/generate?title=Christian%20J.%20Cardenas's%20Portfolio\",\"author\":{\"@type\":\"Person\",\"name\":\"Christian J. Cardenas\",\"url\":\"https://demo.magic-portfolio.com/about\",\"image\":{\"@type\":\"ImageObject\",\"url\":\"https://demo.magic-portfolio.com/images/avatar.jpg\"}}}"}}],["$","$L2",null,{"fillWidth":true,"horizontal":"center","gap":"m","children":["$","$L2",null,{"maxWidth":"s","horizontal":"center","align":"center","children":[["$","$L4",null,{"fillWidth":true,"horizontal":"center","paddingTop":"16","paddingBottom":"32","paddingLeft":"12","children":["$","$L5",null,{"background":"brand-alpha-weak","paddingX":"12","paddingY":"4","onBackground":"neutral-strong","textVariant":"label-default-s","arrow":false,"href":"/work/investment-performance-tracker","children":["$","$L6",null,{"paddingY":"2","children":["$","$L6",null,{"gap":"12","vertical":"center","children":[["$","strong",null,{"className":"ml-4","children":"Selected Project"}]," ",["$","$L7",null,{"background":"brand-alpha-strong","vert":true,"height":"20"}],["$","span",null,{"className":"brand-on-background-medium mr-4","style":{},"children":"Investment Tracker"}]]}]}]}]}],["$","$L4",null,{"translateY":"4","fillWidth":true,"horizontal":"center","paddingBottom":"16","children":["$","h1",null,{"className":"font-display font-strong font-l neutral-on-background-strong","style":{"textWrap":"balance"},"children":"Building scalable backend systems and quantitative models"}]}],["$","$L4",null,{"translateY":"8","delay":0.2,"fillWidth":true,"horizontal":"center","paddingBottom":"32","children":["$","span",null,{"className":"font-heading font-default font-xl neutral-on-background-weak","style":{"textWrap":"balance"},"children":["I'm Christian, a Computer Science student at the"," ",["$","span",null,{"className":"font-xl font-strong","style":{},"children":"University of Florida"}],", specializing in ",["$","br",null,{}]," backend development, machine learning, and quantitative finance."]}]}],["$","$L4",null,{"paddingTop":"12","delay":0.4,"horizontal":"center","paddingLeft":"12","children":["$","$L8",null,{"id":"about","data-border":"rounded","href":"/about","variant":"secondary","size":"m","weight":"default","arrowIcon":true,"children":["$","$L6",null,{"gap":"8","vertical":"center","paddingRight":"4","children":[["$","$L9",null,{"marginRight":"8","style":{"marginLeft":"-0.75rem"},"src":"/images/avatar.jpg","size":"m"}],"About – Christian J. Cardenas"]}]}]}]]}]}],["$","$L4",null,{"translateY":"16","delay":0.6,"children":["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$La","automating_workflows",{"priority":true,"href":"/work/automating_workflows","images":["/images/gallery/Automating-Workflows.png"],"title":"Automating Professor Workflows","description":"Automating professor workflows using Python.","content":"$b","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]]}]}],false,"$Lc","$Ld"]}],["$Le"],"$Lf"]}],"loading":null,"isPartial":false}
+10:T97d,
+[Click here to View Project](https://github.com/idkh0wtocode/Student-Marketplace)
+
+## Overview
+
+The Mega Magic Marketplace is a dedicated digital platform designed to facilitate a safe and centralized exchange for university students. Developed by "The Squirtle Squad," the application addresses the specific constraints of campus life by providing a localized environment for buying, selling, or exchanging textbooks, furniture, clothing, and other student resources.
+Developed student marketplace with user-friendly UI using Django, React and PostgreSQL, with JWT authentication.
+
+
+## Technical Methodology
+- **Three-Tier Architecture:** Built using a modern standard architecture consisting of a React frontend, a Django backend, and a PostgreSQL database.
+- **Frontend Development:** Created an interactive interface using React (JavaScript) that handles item browsing, category filtering, and real-time search queries via REST API calls.
+- **Robust Backend:** Implemented Django + Django REST Framework to manage API endpoints for user authentication, product management, and search logic.
+- **Data Integrity & Testing:** Utilized Django ORM for schema maintenance and implemented seven distinct unit tests covering critical workflows like database insertion, user registration, and messaging.
+- **Agile Management:** Managed development via the Scrum framework, utilizing Git feature branches and Kanban tracking to maintain a high sprint velocity.
+
+## Technologies
+
+- Django
+- React
+- PostgreSQL
+- JWT Authentication
+- Postman
+
+## Key Features
+- **Integrated Messaging:** Secure communication channel for users to coordinate exchanges directly within the platform.
+- **Comprehensive Search:** Keyword-based searching and category filtering to enhance item discoverability.
+- **Administrative Control:** Includes a Django Admin Panel for data entry, user management, and platform oversight.
+
+## Impact & Future Scalability
+- **Community Safety:** The platform mitigates risks such as transaction scams through an integrated reporting system and planned verified university email authentication.
+- **Scalable Design:** The combination of PostgreSQL and Django's modular architecture ensures the system can scale to handle thousands of concurrent student users.
+- **Sustainability:** Encourages a circular economy within the campus community, reducing waste by facilitating the exchange of pre-owned academic materials.
+
+---c:["$","$L2",null,{"fillWidth":true,"gap":"xl","marginBottom":"40","paddingX":"l","children":[["$","$La","fuse-filesystem",{"priority":true,"href":"/work/fuse-filesystem","images":["/images/gallery/Fuse-Filesystem.png"],"title":"FUSE Filesystem","description":"Custom user-space filesystem implementation using FUSE in C++.","content":"\n<YouTube videoId=\"teabC_5tOv0Z\" />\n\n## Overview\n\nImplemented a custom user-space filesystem using FUSE in C++, supporting core file and directory operations (open, read, write, mkdir, unlink).\n\nModeled the filesystem hierarchy using n-ary trees and map-based data structures to efficiently manage directories, inodes, and file metadata.\n\nEnsured POSIX-compliant behavior through correct permission handling, offset-based I/O, and robust error handling during filesystem operations.\n\n## Technologies\n\n- C++\n- FUSE\n- Data Structures (Trees, Maps)\n","avatars":[{"src":"/images/avatar.jpg"}],"link":""}],["$","$La","student-marketplace",{"priority":true,"href":"/work/student-marketplace","images":["/images/gallery/supermarketplace.png"],"title":"Student Marketplace","description":"Student marketplace with user-friendly UI using Django, React and PostgreSQL.","content":"$10","avatars":[{"src":"/images/avatar.jpg"}],"link":""}],"$L11","$L12","$L13"]}]
+d:["$","$L14",null,{}]
+e:["$","script","script-0",{"src":"/Portfolio/_next/static/chunks/77c1917bfce7ffb0.js","async":true}]
+f:["$","$L15",null,{"children":["$","$16",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]
+11:["$","$La","investment-performance-tracker",{"priority":false,"href":"/work/investment-performance-tracker","images":["/images/gallery/Investment-Performance-Tracker.png"],"title":"Investment Performance Tracker","description":"Scalable data pipelines and analytics dashboard for investment performance tracking.","content":"\n[Click here to View Project](https://github.com/idkh0wtocode/Stock-Swiper-App)\n\n## Overview\n\nDeployed scalable data pipelines use Node.js, MongoDB, and RESTful APIs, streamlining data transfer processes and reducing latency; utilized Postman for API testing and debugging to ensure reliability and performance.\n\nBuilt analytics dashboard for investment platform using Next.js, creating visualizations for portfolio metrics and performance tracking that enabled data-driven investment decisions.\n\n## Technologies\n\n- Node.js\n- MongoDB\n- RESTful APIs\n- Next.js\n- Postman\n","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]
+18:T990,
+[Click here to View Project](https://www.algogators.com/post/using-temporal-fusion-transformers-for-market-regime-detection)
+
+## Overview
+
+This project investigates the application of the Temporal Fusion Transformer (TFT)—a deep learning architecture designed for multi-horizon time series forecasting—to the task of market regime detection. The goal was to determine if the TFT’s attention mechanisms could outperform traditional Long Short-Term Memory (LSTM) models and unsupervised methods like Hidden Markov Models (HMM) in identifying structural shifts in financial markets.
+
+
+## Methodology
+
+
+1. Data Integration: The study utilized a diverse dataset (2000–2021) combining high-frequency daily price data for the SPY ETF with lower-frequency macroeconomic indicators, such as the VIX, Federal Funds Rate, and Economic Policy Uncertainty indices.
+
+
+2. Feature Engineering: Key features included realized volatility (RV), RV lags, logarithmic returns, and squared log returns to provide the models with deep statistical context.
+
+
+
+3. Regime Labeling: Because market regimes are not pre-labeled, an unsupervised K-means clustering technique was used to identify four distinct market regimes based on realized volatility.
+
+
+
+4. Model Training: A TFT model (implemented via PyTorch Forecasting) was trained against a benchmark LSTM, both restricted to ~70,000 parameters to ensure a fair comparison of architectural performance.
+
+
+## Key Findings
+- Predictive Accuracy: The LSTM achieved a higher raw accuracy (86%) compared to the TFT (17%).
+
+- The "Safe Prediction" Trap: Analysis revealed that the LSTM’s high accuracy was likely due to "safe" predictions—consistently outputting the most prevalent regime.
+
+- Structural Insight: While the TFT had lower accuracy, it achieved a superior F1 score (0.92 vs. 0.14 for the LSTM), indicating a much better balance between precision and recall. This suggests the TFT is more capable of detecting actual shifts in data structure rather than just following the most common state.
+
+
+## Conclusion 
+While the LSTM appeared superior on paper, the Temporal Fusion Transformer demonstrated a unique potential for identifying complex structural changes in market behavior. Future research will explore larger datasets and refined transformer architectures like the "Informer" to further enhance regime classification.
+
+## Technologies
+
+- PyTorch
+- Pandas
+- NumPy
+- Machine Learning (TFT, LSTM)
+12:["$","$La","temporal-fusion-transformers",{"priority":false,"href":"/work/temporal-fusion-transformers","images":["/images/gallery/tft_pic.png"],"title":"Temporal Fusion Transformers Regime Detection","description":"Market regime detection using Temporal Fusion Transformers vs LSTM.","content":"$18","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]
+13:["$","$La","amazon-route-optimization",{"priority":false,"href":"/work/amazon-route-optimization","images":["/images/gallery/Fastest-Route-20-min.png"],"title":"Amazon Route Optimization","description":"Statistical analysis of Amazon Delivery Dataset revealing correlational relationships.","content":"[Click here to View Project](https://github.com/idkh0wtocode/DataAnalysis)\n\n## Overview\n\nAnalyzed Amazon Delivery Dataset from Kaggle using Pandas, NumPy, and Matplotlib/Seaborn, revealing correlational relationships through statistical analysis such as linear regression models between different variables.\n\nVisualized data using Folium via heatmaps to analyze most prominent areas of delivery.\n\n## Technologies\n\n- Python\n- Pandas\n- NumPy\n- Matplotlib/Seaborn\n- Folium\n","avatars":[{"src":"/images/avatar.jpg"}],"link":""}]
+17:null
