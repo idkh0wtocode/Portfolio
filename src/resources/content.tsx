@@ -44,7 +44,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/Portfolio/images/og/home.jpg",
+  image: "/images/og/home.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -261,7 +261,7 @@ const gallery: Gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
-      src: "/Portfolio/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/horizontal-1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
