@@ -20,7 +20,7 @@ const nextConfig = {
     ],
   },
   output: "export",
-  basePath: "/magic-portfolio",
+  basePath: process.env.NODE_ENV === 'production' ? '/Portfolio' : '',
   sassOptions: {
     compiler: "modern",
     silenceDeprecations: ["legacy-js-api"],
