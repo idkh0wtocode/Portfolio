@@ -1,6 +1,6 @@
 import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
-import { withBasePath } from "@/utils/utils";
+import { withBasePath } from "@/utils/basePath";
 
 const person: Person = {
   firstName: "Christian",
