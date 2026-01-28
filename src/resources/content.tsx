@@ -1,12 +1,13 @@
 import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
+import { withBasePath } from "@/utils/utils";
 
 const person: Person = {
   firstName: "Christian",
   lastName: "Cardenas",
   name: "Christian J. Cardenas",
   role: "Computer Science Student",
-  avatar: "/images/avatar.jpg",
+  avatar: withBasePath("/images/avatar.jpg"),
   email: "christian.j.cardenas05@gmail.com",
   location: "America/New_York",
   languages: ["English", "Spanish"],
@@ -44,7 +45,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: withBasePath("/images/og/home.jpg"),
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -261,7 +262,7 @@ const gallery: Gallery = {
   description: `A photo collection by ${person.name}`,
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: withBasePath("/images/gallery/horizontal-1.jpg"),
       alt: "image",
       orientation: "horizontal",
     },

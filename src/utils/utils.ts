@@ -2,6 +2,21 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 
+// Helper to get the correct base path for assets
+export function getBasePath() {
+  return process.env.NODE_ENV === 'production' ? '/Portfolio' : '';
+}
+
+// Helper to prefix paths with basePath
+export function withBasePath(path: string) {
+  if (!path) return path;
+  if (path.startsWith('http://') || path.startsWith('https://')) {
+    return path; // Don't modify external URLs
+  }
+  const basePath = getBasePath();
+  return path.startsWith('/') ? `${basePath}${path}` : path;
+}
+
 type Team = {
   name: string;
   role: string;
@@ -44,10 +59,13 @@ function readMDXFile(filePath: string) {
     subtitle: data.subtitle || "",
     publishedAt: data.publishedAt,
     summary: data.summary || "",
-    image: data.image || "",
-    images: data.images || [],
+    image: data.image ? withBasePath(data.image) : "",
+    images: data.images ? data.images.map((img: string) => withBasePath(img)) : [],
     tag: data.tag || [],
-    team: data.team || [],
+    team: data.team ? data.team.map((member: Team) => ({
+      ...member,
+      avatar: withBasePath(member.avatar)
+    })) : [],
     link: data.link || "",
   };
 
